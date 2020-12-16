@@ -22,17 +22,20 @@ body{
 
 .home{
     width: 1140px;
-    
+    margin-top: 100px;
 
 }
 
 .home header{
     background-color: #ef4c27;
-    width: 100%;
-    margin-top: 10px;
+    width: 1140px;
     padding: 15px;
     overflow: hidden;
     margin-bottom: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    
 }
 
 .home header img{
@@ -64,6 +67,13 @@ body{
     width: 380px;
     margin: 10px;
     float: left;
+    position: relative;
+}
+
+.home main section img.icon{
+    width: 60px;
+    position: absolute;
+    right: 20px;
 }
 
 .home main section img{
@@ -112,6 +122,15 @@ body{
     background-color: white;
     border: 1px solid skyblue;
     padding: 10px;
+    position: relative;
+}
+
+.home aside section article img.icon{
+    position: absolute;
+    width: 50px;
+    right: 5px;
+    top: 0px;
+
 }
 
 .home aside section article a{
